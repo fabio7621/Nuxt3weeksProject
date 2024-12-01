@@ -2,7 +2,9 @@
 import { Icon } from "@iconify/vue";
 
 import "bootstrap/js/dist/modal";
-
+definePageMeta({
+  layout: "user",
+});
 const roomId = "a"; // for navigation demo
 </script>
 

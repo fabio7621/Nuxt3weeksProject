@@ -1,4 +1,8 @@
-<script setup></script>
+<script setup>
+definePageMeta({
+  layout: "account",
+});
+</script>
 
 <template>
   <div class="px-5 px-md-0">

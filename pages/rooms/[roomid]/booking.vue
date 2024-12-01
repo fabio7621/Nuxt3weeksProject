@@ -1,5 +1,8 @@
 <script setup>
+import BookingLoading from "@/components/rooms/BookingLoading.vue";
 import { Icon } from "@iconify/vue";
+
+const router = useRouter();
 
 const goBack = () => {
   router.back();

@@ -2,7 +2,9 @@
 import { ref } from "vue";
 import { RouterLink } from "vue-router";
 import { Icon } from "@iconify/vue";
-
+definePageMeta({
+  layout: "account",
+});
 const isEmailAndPasswordValid = ref(false);
 </script>
 
