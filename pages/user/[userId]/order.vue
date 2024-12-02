@@ -1,7 +1,6 @@
 <script setup>
 import { Icon } from "@iconify/vue";
 
-import "bootstrap/js/dist/modal";
 definePageMeta({
   layout: "user",
 });
@@ -222,18 +221,13 @@ const roomId = "a"; // for navigation demo
           >
             取消預訂
           </button>
-          <RouterLink
-            :to="{
-              name: 'room-detail',
-              params: {
-                roomId,
-              },
-            }"
+          <NuxtLink
+            to="/"
             class="btn btn-primary-100 text-neutral-0 w-50 py-4 fw-bold"
             type="button"
           >
             查看詳情
-          </RouterLink>
+          </NuxtLink>
         </div>
       </div>
     </div>
@@ -363,7 +357,7 @@ const roomId = "a"; // for navigation demo
     </div>
   </div>
 
-  <div id="cancelModal" class="modal fade" tabindex="-1">
+  <!-- <div id="cancelModal" class="modal fade" tabindex="-1">
     <div
       class="modal-dialog modal-dialog-centered align-items-end align-items-md-center m-0 mx-md-auto h-100"
     >
@@ -399,7 +393,7 @@ const roomId = "a"; // for navigation demo
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <style lang="scss" scoped>

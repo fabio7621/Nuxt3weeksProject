@@ -166,17 +166,12 @@ const roomImages = computed(() => {
                     class="d-flex justify-content-between align-items-center fs-7 fs-md-5 text-primary-100"
                   >
                     <p class="mb-0 fw-bold">NT$ 10,000</p>
-                    <RouterLink
-                      :to="{
-                        name: 'room-detail',
-                        params: {
-                          roomId: 'a',
-                        },
-                      }"
+                    <NuxtLink
+                      to="/"
                       class="icon-link icon-link-hover text-primary-100"
                     >
                       <Icon class="bi fs-5" icon="mdi:arrow-right" />
-                    </RouterLink>
+                    </NuxtLink>
                   </div>
                 </div>
               </div>
@@ -262,17 +257,12 @@ const roomImages = computed(() => {
                     class="d-flex justify-content-between align-items-center fs-7 fs-md-5 text-primary-100"
                   >
                     <p class="mb-0 fw-bold">NT$ 10,000</p>
-                    <RouterLink
-                      :to="{
-                        name: 'room-detail',
-                        params: {
-                          roomId: 'b',
-                        },
-                      }"
+                    <NuxtLink
+                      to="/"
                       class="icon-link icon-link-hover text-primary-100"
                     >
                       <Icon class="bi fs-5" icon="mdi:arrow-right" />
-                    </RouterLink>
+                    </NuxtLink>
                   </div>
                 </div>
               </div>
@@ -358,17 +348,12 @@ const roomImages = computed(() => {
                     class="d-flex justify-content-between align-items-center fs-7 fs-md-5 text-primary-100"
                   >
                     <p class="mb-0 fw-bold">NT$ 10,000</p>
-                    <RouterLink
-                      :to="{
-                        name: 'room-detail',
-                        params: {
-                          roomId: 'c',
-                        },
-                      }"
+                    <NuxtLink
+                      to="/"
                       class="icon-link icon-link-hover text-primary-100"
                     >
                       <Icon class="bi fs-5" icon="mdi:arrow-right" />
-                    </RouterLink>
+                    </NuxtLink>
                   </div>
                 </div>
               </div>
@@ -454,17 +439,12 @@ const roomImages = computed(() => {
                     class="d-flex justify-content-between align-items-center fs-7 fs-md-5 text-primary-100"
                   >
                     <p class="mb-0 fw-bold">NT$ 10,000</p>
-                    <RouterLink
-                      :to="{
-                        name: 'room-detail',
-                        params: {
-                          roomId: 'd',
-                        },
-                      }"
+                    <NuxtLink
+                      to="/"
                       class="icon-link icon-link-hover text-primary-100"
                     >
                       <Icon class="bi fs-5" icon="mdi:arrow-right" />
-                    </RouterLink>
+                    </NuxtLink>
                   </div>
                 </div>
               </div>
